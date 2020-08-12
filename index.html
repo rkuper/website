@@ -21,7 +21,7 @@
 <body style="background-color:#2e3440">
 
 <nav class="navbar navbar-expand-sm fixed-top">
-  <a class="navbar-brand no-hover pull-left main-bar-name" href="#"><img src="images/icon.png">   Reese Kuper</a>
+  <a class="navbar-brand no-hover pull-left main-bar-name" href="#" id="toTopName"><img src="images/icon.png" class="icon">Reese Kuper</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -68,8 +68,8 @@
         <div class="row">
 
 		  <!-- Pinnacle and Westwood High School -->
-		  <div class="col">
-		    <button type="button" class="school-button">
+		  <div class="col school-button-active">
+		    <button type="button" data-toggle="collapse" href="#collapseHS" class="school-button ">
 			  <div class="container" style="padding:0px">
 			    <div class="col">
 			  	  <div class="full-center"><img src="images/HS_Logo.png"></div>
@@ -82,11 +82,51 @@
 			    </div>
 			  </div>
             </button>
+			<div class="collapse" id="collapseHS">
+			  <div class="card card-body">
+				<table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="col-xs-11">AP Physics C - Mechanics</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Physics C - E&M</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Physics 2</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Physics 1</td>
+                      <td class="col-xs-1">4</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Calculus BC & AB Subscore</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Chemistry</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Statistics</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                    <tr>
+                      <td class="col-xs-11">AP Psychology</td>
+                      <td class="col-xs-1">5</td>
+                    </tr>
+                  </tbody>
+                </table>
+			  </div>
+			</div>
 		  </div>
 
 		  <!-- University of Wisconsin - Madison -->
           <div class="col">
-		    <button type="button" class="school-button">
+		    <button type="button" data-toggle="collapse" href="#collapseBS" class="school-button ">
 			<div class="container" style="padding:0px">
 			  <div class="col">
 				<div class="full-center"><img src="images/UW.png"></div>
@@ -99,11 +139,47 @@
 			  </div>
 			</div>
             </button>
+             <div class="collapse" id="collapseBS">
+			  <div class="card card-body">
+				<table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="col">Advanced Computer Architecture 2</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Computer Architecture</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Digital Design and Synthesis</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Parallel Programming</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Operating Systems</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Object Oriented Programming</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Data Structures</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Circuits and Circuit Analysis</td>
+                    </tr>
+                    <tr>
+                      <td class="col">Signals, Information, and Computation</td>
+                    </tr>
+                  </tbody>
+                </table>
+			  </div>
+			</div>
+
           </div>
 
 		  <!-- Graduate School -->
           <div class="col">
-		    <button type="button" class="school-button">
+		    <button type="button" class="school-button ">
 			<div class="container" style="padding:0px">
 			  <div class="col">
 				<div class="full-center"><img src="images/Question_Mark.png"></div>
@@ -137,7 +213,7 @@
 </div>
 
 <div class="text-center" style="margin-bottom:10px;padding-top:30px;">
-  <p>Footnote for contact and links</p>
+  <p style="font-size: 12px;">Footnote for contact and links</p>
 </div>
 
 </body>

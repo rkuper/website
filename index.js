@@ -1,3 +1,8 @@
-function showCourses() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
+$(document).ready(function() { 
+  $('#toTopName').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
+});
