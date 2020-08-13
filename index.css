@@ -168,5 +168,16 @@ p {
 	padding-right: 0px;
 	padding-left: 50px;
 	padding-top: 15px;
-	padding-bottom: 15px; 
+}
+
+.experience-company-logo {
+	border-radius: 10px !important;
+}
+
+.experience-title {
+	color: #d8dee9;
+}
+
+.experience-container {
+	margin-top: 60px;
 }
