@@ -1,143 +1,172 @@
+/*	                          */
+/*	                          */
+/*	 General/Navbar Section   */
+/*	                          */
+/*	                          */
+
 /* Name on left side of navbar */
 .main-bar-name {
-  color: #eceff4;
-  font-size: 23px;
-  padding-top: 10px; 
+	color: #eceff4;
+	font-size: 23px;
+	padding-top: 10px; 
 }
 
 .main-bar-name:hover {
-  color: #d8dee9;
+	color: #d8dee9;
 }
 
 /* Icon image with extra padding */
 .icon {
-  padding-right: 13px !important;
+	padding-right: 13px !important;
 }
 
 /* Non-hovering color of navbar links */
 .nav-link {
-  color: #d8dee9;
-  font-size: 18px
+	color: #d8dee9;
+	font-size: 18px
 }
 
 /* Column header information */
 .col-title {
-  text-align: center;
-  color: #d8dee9;
+	text-align: center;
+	color: #d8dee9;
 }
 
 /* Custom font color for all text */
 p {
-  color: #d8dee9;
+	color: #d8dee9;
  /* font-family: 'Source Code Pro', monospace; */
-  font-size: 18px;
+	font-size: 18px;
 }
 
 /* Separating line for each about section */
 .separator {
-  width: 95%;
-  margin: auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  border: 1px solid #434c5e;
-  color: #434c5e;
+	width: 95%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border: 1px solid #434c5e;
+	color: #434c5e;
 }
 
 /* Create better color background for button */
 .navbar-toggler {
-  background-color: #434c5e
+	background-color: #434c5e
 }
 
 /* Underline the navbar headers */
 .nav-item > a {
-  position: relative;
-  color: #eceff4;
-  text-decoration: none;
-  padding-top: 10px;
+	position: relative;
+	color: #eceff4;
+	text-decoration: none;
+	padding-top: 10px;
 }
 
 .nav-item > a:hover {
-  color: #d8dee9;
+	color: #d8dee9;
 }
 
 .nav-item > a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #d8dee9;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #d8dee9;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-item > a:hover::before {
-  visibility: visible;
-  transform: scaleX(0.9);
-  color: #d8dee9;
+	visibility: visible;
+	transform: scaleX(0.9);
+	color: #d8dee9;
 }
+
+
+
+/*	                     */
+/*	                     */
+/*	 Education Section   */
+/*	                     */
+/*	                     */
 
 /* Center images */
 .full-center {
-  display: table-cell;
-  margin: auto;
-  height: 200px;
-  text-align: center;
-  width: 10000px; 
-  vertical-align: middle;
+	display: table-cell;
+	margin: auto;
+	height: 200px;
+	text-align: center;
+	width: 10000px; 
+	vertical-align: middle;
 }
 
 /* Outline education buttons */
 .school-button {
-  background-color: #2e3440;
-  border: none;
-  padding: 5px;
+	background-color: #2e3440;
+	border: none;
+	padding: 5px;
 }
 
 .school-button:hover {
-  border-radius: 25px;
-  background-color: #3b4252;
-  padding: 5px;
-  border: none;
-  outline: none;
+	border-radius: 25px;
+	background-color: #3b4252;
+	padding: 5px;
+	border: none;
+	outline: none;
 }
 
 .school-button:active {
-  border-radius: 25px;
-  background-color: #3b4252;
-  padding: 5px;
-  border: none;
-  outline: none;
+	border-radius: 25px;
+	background-color: #3b4252;
+	padding: 5px;
+	border: none;
+	outline: none;
 }
 
 .school-button:focus {
-  border-radius: 25px;
-  background-color: #3b4252;
-  padding: 5px;
-  border: none;
-  outline: none;
+	border-radius: 25px;
+	padding: 5px;
+	border: none;
+	outline: none;
 }
 
 /* Adjust color of collapsable card */
 .card {
-  color: #d8dee9;
-  background-color: #2e3440;
-  border: none;
+	color: #d8dee9;
+	background-color: #2e3440;
+	border: none;
 }
 
 /* Fix table border problems */
 .table td {
-  border: none !important;
-  color: #d8dee9;
+	border: none !important;
+	color: #d8dee9;
 }
 
-.table {
-  border-top: dashed #3b4252 1px;
+.course-table {
+	border-top: dashed #3b4252 1px;
 }
 
-td {
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
+.course-item {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+}
+
+
+
+/*                        */
+/*                        */
+/*   Experience Section   */
+/*                        */
+/*                        */
+
+.experience-date {
+	color: #d8dee9;
+	padding-right: 0px;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
 }
