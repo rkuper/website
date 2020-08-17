@@ -1,14 +1,13 @@
-/*	                          */
-/*	                          */
-/*	 General/Navbar Section   */
-/*	                          */
-/*	                          */
+/*																	*/
+/*																	*/
+/*			General/Navbar Section			*/
+/*																	*/
+/*																	*/
 
 html {
 	scroll-behavior: smooth;
 }
 
-/* Name on left side of navbar */
 .main-bar-name {
 	color: #eceff4;
 	font-size: 23px;
@@ -19,18 +18,19 @@ html {
 	color: #eceff4;
 }
 
-/* Icon image with extra padding */
 .icon {
 	padding-right: 13px !important;
 }
 
-/* Non-hovering color of navbar links */
 .nav-link {
 	color: #d8dee9;
-	font-size: 18px
+	font-size: 16px
 }
 
-/* Column header information */
+.navbar {
+	background-color: #3b4252;
+}
+
 .col-title {
 	text-align: center;
 	color: #d8dee9;
@@ -91,22 +91,22 @@ p {
 
 
 
-/*	                 */
-/*                   */
-/*	 About Section   */
-/*	                 */
-/*                    */
+/*												*/
+/*												*/
+/*			About Section			*/
+/*												*/
+/*												*/
 .pic-of-me {
 	
 }
 
 
 
-/*	                     */
-/*	                     */
-/*	 Education Section   */
-/*	                     */
-/*	                     */
+/*														*/
+/*														*/
+/*			Education Section			*/
+/*														*/
+/*														*/
 
 /* Center images */
 .full-center {
@@ -120,13 +120,12 @@ p {
 
 /* Outline education buttons */
 .school-button {
-	background-color: #2e3440;
+	background-color: #3b4252;
 	border: none;
 	padding: 5px;
 }
 
 .school-button:hover {
-	border-radius: 5px;
 	background-color: #3b4252;
 	padding: 5px;
 	border: none;
@@ -134,7 +133,6 @@ p {
 }
 
 .school-button:active {
-	border-radius: 5px;
 	background-color: #3b4252;
 	padding: 5px;
 	border: none;
@@ -142,7 +140,6 @@ p {
 }
 
 .school-button:focus {
-	border-radius: 5px;
 	padding: 5px;
 	border: none;
 	outline: none;
@@ -151,32 +148,38 @@ p {
 /* Adjust color of collapsable card */
 .card {
 	color: #d8dee9;
-	background-color: #2e3440;
-	border: none;
+	background-color: #3b4252;
+}
+
+.card-body {
+	border-right: 0px;
+	border-left: 0px;
+	border-top: dashed 2px;
+	border-color: #2e3440;
+	padding-bottom: 1px !important; 
 }
 
 /* Fix table border problems */
 .table td {
 	border: none !important;
 	color: #d8dee9;
-}
-
-.course-table {
-	border-top: dashed #3b4252 1px;
+	padding-left: 1px !important;
 }
 
 .course-item {
-	padding-top: 6px !important;
-	padding-bottom: 6px !important;
+	padding-top: 5px !important;
+}
+
+.course-table {
 }
 
 
 
-/*                        */
-/*                        */
-/*   Experience Section   */
-/*                        */
-/*                        */
+/*															*/
+/*															*/
+/*		  Experience Section			*/
+/*														  */
+/*															*/
 
 .experience-slot {
 	padding-top: 20px;
@@ -208,6 +211,22 @@ p {
 .experience-bullet {
 	color: #d8dee9;
 	font-size: 14px;
+}
+
+
+
+/*													*/
+/*													*/
+/*			Contact Section			*/
+/*													*/
+/*													*/
+
+.contact-block {
+}
+
+.contact-button {
+	background-color: #3b4252;
+	border: none;
 }
 
 
