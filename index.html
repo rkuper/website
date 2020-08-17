@@ -17,6 +17,7 @@
 		background: #aaa;
 	}
 	</style>
+	<link rel="icon" href="images/icon.png">
 </head>
 <body style="background-color:#2e3440">
 
@@ -48,10 +49,10 @@
 			<h1 class="col-title">About Me</h2>
 			<div class="container" style="margin-top:40px">
 				<div class="row">
-					<div class="col-sm-4">
-						<div class="fakeimg">Image of Me :(</div>
+					<div class="col-sm-3">
+						<div class="pic-of-me full-center"><img src="images/about/me.png" height="300" width="200"></div>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<p>Hi, I'm Reese!</p>
 						<p>I'm a current undergraduate student at the University of Wisconsin - Madison
 						double majoring in Computer Engineering and Computer Science. I have a
@@ -63,6 +64,8 @@
 					</div>
 				</div>
 			</div>
+
+
 
 			<!-- Education Section -->
 			<hr class="separator">
@@ -199,29 +202,148 @@
 
 				</div>
 			</div>
+
+
 			
 			<!-- Experience Section -->
 			<hr class="separator">
 			<h1 class="col-title">Experience</h2>
-			<div class="container experience-container" style="border: solid white 1px;">
+			<div class="container experience-container">
 
-				<div class="row">
-					<div class="col-2" style="padding: 0px; border: solid white 1px;">
+				<!-- Arm -->
+				<div class="row experience-slot">
+					<div class="col-1" style="padding: 0px; padding-left: 20px;">
 						<span class="float-right">
 						  <img src="images/experience/arm.png" height="50" width"50" style="border-radius: 8px;">
 						</span>
 					</div>
-					<div class="col-8 experience-title" style="padding-left: 1.5%;"><strong>Software Engineering Intern</strong><br>Linux Kernel Development Team
+					<div class="col-8"> 
+						<div class="experience-title" style="padding-left: 0.75%;">
+							<strong>Arm - Hardware Engineering Intern</strong><br>Systems Interconnect Verification Team
+						</div>
+						<div>
+							<ul class="experience-list">
+								<li class="experience-bullet">
+									Developed python script to analyze the use of all plusargs within the UVM testbenches 
+								</li>
+								<li class="experience-bullet">
+									Scripted two githooks for file update notifications 
+								</li>
+								<li class="experience-bullet">
+									Fixed UVM register definition autogeneration for more flexible RAL models
+								</li>
+								<li class="experience-bullet">
+									Programmed module for modeling transactions to specific interconnect nodes in SystemC
+								</li>
+								<li class="experience-bullet">
+									Formally verified round robin arbiter using system verilog assertions
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-2">
+					<div class="col-3 experience-date" style="text-align: right; padding-right: 3%;">
 						<p>Summer 2020</p>
+					</div>
+				</div>
+
+				<!-- Qualcomm -->
+				<div class="row experience-slot">
+					<div class="col-1" style="padding: 0px; padding-left: 20px;">
+						<span class="float-right">
+						  <img src="images/experience/qualcomm.png" height="50" width"50" style="border-radius: 8px;">
+						</span>
+					</div>
+					<div class="col-8"> 
+						<div class="experience-title" style="padding-left: 0.75%;">
+							<strong>Qualcomm - Software Engineering Intern</strong><br>Linux Kernel Memory Management Team
+						</div>
+						<div>
+							<ul class="experience-list">
+								<li class="experience-bullet">
+									Improved kernel ION allocation speeds by ~10% that will be in the upstreamed kernel 
+								</li>
+								<li class="experience-bullet">
+									Analyzed the efficiency of IOVA’s use of caching and compared it with MMAP’s gap searching RBTree structure 
+								</li>
+								<li class="experience-bullet">
+									Created internal python file tracing tool for parsing Linux RAM dump binaries 
+								</li>
+								<li class="experience-bullet">
+									Worked towards shifting mmap allocations to use the mempool API
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-3 experience-date" style="text-align: right; padding-right: 3%;">
+						<p>Summer 2019</p>
+					</div>
+				</div>
+
+				<!-- Suvola -->
+				<div class="row experience-slot">
+					<div class="col-1" style="padding: 0px; padding-left: 20px;">
+						<span class="float-right">
+						  <img src="images/experience/suvola.png" height="50" width"50" style="border-radius: 8px;">
+						</span>
+					</div>
+					<div class="col-8"> 
+						<div class="experience-title" style="padding-left: 0.75%;">
+							<strong>SimpleRisk - Software Engineering Intern</strong><br>Development Team
+						</div>
+						<div>
+							<ul class="experience-list">
+								<li class="experience-bullet">
+									Programmed a proof of concept java backend to demonstrate the device's functionality
+								</li>
+								<li class="experience-bullet">
+									Assisted patent creation for a cybersecurity device through flowcharts, device descriptions, and outside patent research
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-3 experience-date" style="text-align: right; padding-right: 3%;">
+						<p>Summer 2018</p>
+					</div>
+				</div>
+
+				<!-- SimpleRish -->
+				<div class="row experience-slot">
+					<div class="col-1" style="padding: 0px; padding-left: 20px;">
+						<span class="float-right">
+						  <img src="images/experience/simplerisk.png" height="50" width"50" style="border-radius: 8px;">
+						</span>
+					</div>
+					<div class="col-8"> 
+						<div class="experience-title" style="padding-left: 0.75%;">
+							<strong>SimpleRisk - Programming Intern</strong><br>Development Team
+						</div>
+						<div>
+							<ul class="experience-list">
+								<li class="experience-bullet">
+									Minor syntax and bug fixes for MySQL database queries 
+								</li>
+								<li class="experience-bullet">
+									Added explicit user-based comment permissions within page sections
+								</li>
+								<li class="experience-bullet">
+									Worked towards updating website PHP version from 5.6 to 7.0
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-3 experience-date" style="text-align: right; padding-right: 3%;">
+						<p>Summer 2018</p>
 					</div>
 				</div>
 			</div>
 			
+
+
 			<!-- Project Section -->
 			<hr class="separator">
 			<h1 class="col-title">Projects</h2>
+
+
 
 			<!-- Contact Section -->
 			<hr class="separator">
@@ -236,5 +358,3 @@
 
 </body>
 </html>
-:w
-
