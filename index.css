@@ -4,22 +4,13 @@
 /*																	*/
 /*																	*/
 
-html {
-	scroll-behavior: smooth;
-}
-
 .main-bar-name {
 	color: #eceff4;
 	font-size: 23px;
-	padding-top: 10px; 
 }
 
 .main-bar-name:hover {
 	color: #eceff4;
-}
-
-.icon {
-	padding-right: 13px !important;
 }
 
 .nav-link {
@@ -27,20 +18,17 @@ html {
 	font-size: 16px
 }
 
-.navbar {
-	background-color: #3b4252;
-}
-
 .col-title {
 	text-align: center;
 	color: #d8dee9;
+	margin-bottom: 35px;
 }
 
 /* Custom font color for all text */
 p {
 	color: #d8dee9;
- /* font-family: 'Source Code Pro', monospace; */
 	font-size: 18px;
+	/* font-family: 'Rubik', monospace; */
 }
 
 /* Separating line for each about section */
@@ -89,6 +77,16 @@ p {
 	color: #eceff4;
 }
 
+/* Center images */
+.full-center {
+	display: table-cell;
+	margin: auto;
+	height: 200px;
+	text-align: center;
+	width: 10000px;
+	vertical-align: middle; 
+}
+
 
 
 /*												*/
@@ -108,69 +106,106 @@ p {
 /*														*/
 /*														*/
 
-/* Center images */
-.full-center {
+/* School wrappers */
+.school-box {
+	width: 350px;
+	padding-right: 0px;
+	padding-left: 0px;
+
 	display: table-cell;
-	margin: auto;
-	height: 200px;
+	margin: 5px auto;
 	text-align: center;
-	width: 10000px; 
-	vertical-align: middle;
+	vertical-align: middle; 
 }
 
-/* Outline education buttons */
+.school-card {
+	background-color: #3b4252;
+	color: #d8dee9;
+	width: 350px;
+	height: 350px;
+	outline: none;
+	border: none;
+}
+
+/* Button Effects */
 .school-button {
 	background-color: #3b4252;
 	border: none;
-	padding: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	outline: none;  
 }
 
 .school-button:hover {
 	background-color: #3b4252;
-	padding: 5px;
 	border: none;
 	outline: none;
 }
 
 .school-button:active {
 	background-color: #3b4252;
-	padding: 5px;
 	border: none;
 	outline: none;
 }
 
 .school-button:focus {
-	padding: 5px;
 	border: none;
 	outline: none;
 }
 
-/* Adjust color of collapsable card */
-.card {
-	color: #d8dee9;
-	background-color: #3b4252;
+.school-name {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
 }
 
-.card-body {
-	border-right: 0px;
-	border-left: 0px;
-	border-top: dashed 2px;
-	border-color: #2e3440;
-	padding-bottom: 1px !important; 
+.school-major {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.school-stats {
+	text-align: center;
+	font-size: 16px;
+}
+
+.school-stats-table {
+	border: none !important;
+	color: #d8dee9;
+	margin: 0px auto;
+}
+
+.school-gpa {
+	border: none !important;
+	text-align: right;
+	padding-right: 20px !important;
+	font-size: 16px;
+}
+
+.school-dates {
+	border: none !important;
+	text-align: left;
+	padding-left: 20px !important;
+	font-size: 16px;
 }
 
 /* Fix table border problems */
-.table td {
-	border: none !important;
-	color: #d8dee9;
-	padding-left: 1px !important;
+.school-courses {
+	width: 350px;
+	padding-top: 10px;
+	background-color: #3b4252;
+	border-top: dashed 2px;
+	border-color: #2e3440;
+	text-align: left;
+	margin: 0px auto;
 }
 
 .course-item {
+	border: none !important;
+	color: #d8dee9;
 	padding-top: 5px !important;
-}
-
-.course-table {
+	font-size: 16px;
 }
 
 
@@ -181,36 +216,29 @@ p {
 /*														  */
 /*															*/
 
-.experience-slot {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
+/* School wrappers */
+.experience-box {
+	width: 350px;
+	padding-right: 0px;
+	padding-left: 0px;
 
-.experience-date {
-	color: #d8dee9;
-}
-
-.experience-company-logo {
-	border-radius: 8px !important;
-}
-
-.experience-title {
-	color: #d8dee9;
-	padding-top: 2px;
-}
-
-.experience-container {
-	margin-top: 60px;
+	display: table-cell;
+	margin: 0px auto 20px auto;
+	text-align: center;
+	vertical-align: middle; 
 }
 
 .experience-list {
-	padding-top: 1%;
-	padding-left: 3%;
+	padding-left: 35px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #d8dee9;
 }
 
 .experience-bullet {
-	color: #d8dee9;
-	font-size: 14px;
+	padding-bottom: 15px;
+	font-size: 16px;
 }
 
 
@@ -222,6 +250,10 @@ p {
 /*													*/
 
 .contact-block {
+	display: table-cell;
+	margin: 0px auto 10px auto;
+	text-align: center;
+	vertical-align: middle; 
 }
 
 .contact-button {
