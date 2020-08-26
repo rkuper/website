@@ -11,13 +11,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<script src="index.js"></script> 
-	<link rel="icon" href="images/icon.png">
+	<link rel="icon" href="images/general/icon.png">
 </head>
 
 
 <body style="background-color:#2e3440">
 	<nav class="navbar navbar-expand-sm fixed-top" style="padding: 0px auto !important;">
-		<a class="navbar-brand no-hover pull-left main-bar-name" href="#" id="toTopName"><img src="images/icon.png" class="icon"></a>
+		<a class="navbar-brand no-hover pull-left main-bar-name" href="#" id="toTopName"><img src="images/general/icon.png" class="icon"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -71,20 +71,23 @@
 						<!-- High School -->
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-high-school" class="school-button">
-								<div class="card school-card">
-									<img src="images/education/hs.png" width="297" height="101" style="margin: auto">
-									<p class="school-name">Pinnacle & Westwood High School</p>
-									<br>
-									<p class="school-major">--------------------= N/A =--------------------</p>
-									<br>
-									<table class="table school-stats-table">
-										<tbody>
-											<tr>
-												<td class="school-dates">2013-2017</td>
-												<td class="school-gpa">GPA: 4.000/4.000</td>
-											</tr>
-										</tbody>
-									</table>
+								<div class="card school-card" id="underlay-hs">
+									<div class="overlay" id="overlay-hs" onmouseout="off('overlay-hs', 'underlay-hs', 'underlay');" style="opacity: 0;">
+										<div class="card school-card">
+											<p class="school-overlay-info">2013-2017</p>
+											<p class="school-overlay-info">GPA: 4.000/4.000</p>
+  									</div>
+									</div>
+
+									<div class="overlay-button" onmouseover="on('overlay-hs', 'underlay-hs', 'underlay');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+
+									<img class="underlay" src="images/education/hs.png" width="297" height="101" style="margin: auto;">
+									<p class="school-name underlay">Pinnacle & Westwood High School</p>
+									<p class="school-major underlay">--------------------= N/A =--------------------</p>
+
+
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-high-school">
@@ -131,11 +134,6 @@
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-undergrad" class="school-button">
 								<div class="card school-card">
-									<img src="images/education/uw.png" width="128" height="190" style="margin: auto">
-									<p class="school-name">University of Wisconsin - Madison</p>
-									<br>
-									<p class="school-major">Computer Engineering & Computer Science</p>
-									<br>
 									<table class="table school-stats-table">
 										<tbody>
 											<tr>
@@ -144,6 +142,11 @@
 											</tr>
 										</tbody>
 									</table>
+									<img src="images/education/uw.png" width="128" height="190" style="margin: auto">
+									<p class="school-name">University of Wisconsin - Madison</p>
+									<br>
+									<p class="school-major">Computer Engineering & Computer Science</p>
+									<br>
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-undergrad">
@@ -182,11 +185,6 @@
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-grad" class="school-button">
 								<div class="card school-card">
-									<img src="images/education/qm.png" width="121" height="185" style="margin: auto">
-									<p class="school-name">Applying to Universities</p>
-									<br>
-									<p class="school-major">Focus in Computer Architecture</p>
-									<br>
 									<table class="table school-stats-table">
 										<tbody>
 											<tr>
@@ -195,6 +193,11 @@
 											</tr>
 										</tbody>
 									</table>
+									<img src="images/education/qm.png" width="121" height="185" style="margin: auto">
+									<p class="school-name">Applying to Universities</p>
+									<br>
+									<p class="school-major">Focus in Computer Architecture</p>
+									<br>
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-grad">
@@ -245,17 +248,25 @@
 
 						<!-- Arm -->
 						<div class="col-xl-4 experience-box">
-							<button type="button" data-toggle="collapse" href="#collapse-arm" class="school-button">
-								<div class="card school-card">
+							<button type="button" data-toggle="collapse" href="#collapse-arm" class="experience-button">
+								<div class="card experience-card">
+									<table class="table experience-stats-table">
+										<tbody>
+											<tr>
+												<td class="experience-date">Summer 2020</td>
+												<td class="experience-weeks">14 Weeks</td>
+											</tr>
+										</tbody>
+									</table>
 									<img src="images/experience/arm.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p style="text-align:center">Arm - Summer 2020</p>
+									<p class="experience-company">Arm</p>
 									<br>
-									<p style="text-align: center">Hardware Engineering Internship</p>
+									<p class="experience-area">Hardware Engineering Internship</p>
 									<br>
-									<p style="text-align: center">Systems Interconnect Verification Team</p>
+									<p class="experience-team">Systems Interconnect Verification Team</p>
 								</div>
 							</button>
-							<div class="collapse school-courses" id="collapse-arm">
+							<div class="collapse experience-collapse-list" id="collapse-arm">
 								<ul class="experience-list">
 									<li class="experience-bullet">Developed python script to analyze the use of all plusargs within the UVM testbenches</li>
 									<li class="experience-bullet">Scripted two githooks for file update notifications</li>
@@ -268,17 +279,25 @@
 
 						<!-- Qualcomm -->
 						<div class="col-xl-4 experience-box">
-							<button type="button" data-toggle="collapse" href="#collapse-qualcomm" class="school-button">
-								<div class="card school-card">
+							<button type="button" data-toggle="collapse" href="#collapse-qualcomm" class="experience-button">
+								<div class="card experience-card">
+									<table class="table experience-stats-table">
+										<tbody>
+											<tr>
+												<td class="experience-date">Summer 2019</td>
+												<td class="experience-weeks">14 Weeks</td>
+											</tr>
+										</tbody>
+									</table>
 									<img src="images/experience/qualcomm.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p style="text-align:center">Qualcomm - Summer 2019</p>
+									<p class="experience-company">Qualcomm</p>
 									<br>
-									<p style="text-align: center">Software Engineering Internship</p>
+									<p class="experience-area">Software Engineering Internship</p>
 									<br>
-									<p style="text-align: center">Linux Memory Management Team</p>
+									<p class="experience-team">Linux Kernel Memory Management Team</p>
 								</div>
 							</button>
-							<div class="collapse school-courses" id="collapse-qualcomm">
+							<div class="collapse experience-collapse-list" id="collapse-qualcomm">
 								<ul class="experience-list">
 									<li class="experience-bullet">Improved kernel ION allocation speeds by ~10% that will be in the upstreamed kernel</li>
 									<li class="experience-bullet">Analyzed the efficiency of IOVA’s use of caching and compared it with MMAP’s gap searching RBTree structure</li>
@@ -290,17 +309,25 @@
 
 						<!-- Simplerisk -->
 						<div class="col-xl-4 experience-box">
-							<button type="button" data-toggle="collapse" href="#collapse-simplerisk" class="school-button">
-								<div class="card school-card">
+							<button type="button" data-toggle="collapse" href="#collapse-simplerisk" class="experience-button">
+								<div class="card experience-card">
+									<table class="table experience-stats-table">
+										<tbody>
+											<tr>
+												<td class="experience-date">Summer 2018</td>
+												<td class="experience-weeks">8 Weeks</td>
+											</tr>
+										</tbody>
+									</table>
 									<img src="images/experience/simplerisk.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p style="text-align:center">SimpleRisk - Summer 2018</p>
+									<p class="experience-company">SimpleRisk</p>
 									<br>
-									<p style="text-align: center">Programming Internship</p>
+									<p class="experience-area">Software Engineering Internship</p>
 									<br>
-									<p style="text-align: center">Systems Interconnect Verification Team</p>
+									<p class="experience-team">Development Team</p>
 								</div>
 							</button>
-							<div class="collapse school-courses" id="collapse-simplerisk">
+							<div class="collapse experience-collapse-list" id="collapse-simplerisk">
 								<ul class="experience-list">
 									<li class="experience-bullet">Minor syntax and bug fixes for MySQL database queries</li>
 									<li class="experience-bullet">Added explicit user-based comment permissions within page sections</li>
@@ -311,17 +338,25 @@
 
 						<!-- Suvola -->
 						<div class="col-xl-4 experience-box">
-							<button type="button" data-toggle="collapse" href="#collapse-suvola" class="school-button">
-								<div class="card school-card">
+							<button type="button" data-toggle="collapse" href="#collapse-suvola" class="experience-button">
+								<div class="card experience-card">
+									<table class="table experience-stats-table">
+										<tbody>
+											<tr>
+												<td class="experience-date">Summer 2018</td>
+												<td class="experience-weeks">8 Weeks</td>
+											</tr>
+										</tbody>
+									</table>
 									<img src="images/experience/suvola.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p style="text-align:center">Suvola - Summer 2018</p>
+									<p class="experience-company">Suvola</p>
 									<br>
-									<p style="text-align: center">Software Engineering Internship</p>
+									<p class="experience-area">Software Engineering Internship</p>
 									<br>
-									<p style="text-align: center">Development Team</p>
+									<p class="experience-team">Development Team</p>
 								</div>
 							</button>
-							<div class="collapse school-courses" id="collapse-suvola">
+							<div class="collapse experience-collapse-list" id="collapse-suvola">
 								<ul class="experience-list">
 									<li class="experience-bullet">Programmed a proof of concept java backend to demonstrate the device's functionality</li>
 									<li class="experience-bullet">Assisted patent creation for a cybersecurity device through flowcharts, device descriptions, and outside patent research</li>

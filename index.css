@@ -87,6 +87,36 @@ p {
 	vertical-align: middle; 
 }
 
+/* Allow overlay for cards */
+.overlay {
+  position: absolute; 
+  top: 0%;
+  left: 0%;
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  color: #d8dee9;
+  font-size: 16px;
+  margin: auto;
+  text-align: center;
+}
+
+.underlay {
+  transition: .5s ease;
+	filter: blur(0px);
+}
+
+.overlay-button {
+	position: absolute;
+	top: 3.5%;
+	right: 5%;
+	border-radius: 16px;
+	height: 16px;
+	width: 16px;
+}
+
 
 
 /*												*/
@@ -162,12 +192,13 @@ p {
 .school-major {
 	text-align: center;
 	font-size: 16px;
-	margin-bottom: 5px;
 }
 
-.school-stats {
+.school-overlay-info {
+	color: #d8dee9;
+	margin: auto;
 	text-align: center;
-	font-size: 16px;
+	font-size: 26px;
 }
 
 .school-stats-table {
@@ -226,6 +257,90 @@ p {
 	margin: 0px auto 20px auto;
 	text-align: center;
 	vertical-align: middle; 
+}
+
+.experience-card {
+	background-color: #3b4252;
+	color: #d8dee9;
+	width: 350px;
+	height: 350px;
+	outline: none;
+	border: none;
+}
+
+/* Button Effects */
+.experience-button {
+	background-color: #3b4252;
+	border: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	outline: none;  
+}
+
+.experience-button:hover {
+	background-color: #3b4252;
+	border: none;
+	outline: none;
+}
+
+.experience-button:active {
+	background-color: #3b4252;
+	border: none;
+	outline: none;
+}
+
+.experience-button:focus {
+	border: none;
+	outline: none;
+}
+
+/* Card info */
+.experience-company {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.experience-area {
+	text-align: center;
+	font-size: 16px;
+}
+
+.experience-team {
+	text-align: center;
+	font-size: 16px;
+}
+
+.experience-stats-table {
+	border: none !important;
+	color: #d8dee9;
+	margin: 0px auto;
+}
+
+.experience-weeks {
+	border: none !important;
+	text-align: right;
+	padding-right: 20px !important;
+	font-size: 16px;
+}
+
+.experience-date {
+	border: none !important;
+	text-align: left;
+	padding-left: 20px !important;
+	font-size: 16px;
+}
+
+
+/* Fix table border problems */
+.experience-collapse-list {
+	width: 350px;
+	padding-top: 10px;
+	background-color: #3b4252;
+	border-top: dashed 2px;
+	border-color: #2e3440;
+	text-align: left;
+	margin: 0px auto;
 }
 
 .experience-list {
