@@ -72,22 +72,18 @@
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-high-school" class="school-button">
 								<div class="card school-card" id="underlay-hs">
-									<div class="overlay" id="overlay-hs" onmouseout="off('overlay-hs', 'underlay-hs', 'underlay');" style="opacity: 0;">
-										<div class="card school-card">
-											<p class="school-overlay-info">2013-2017</p>
-											<p class="school-overlay-info">GPA: 4.000/4.000</p>
-  									</div>
+									<div class="overlay card school-card" id="overlay-hs" style="opacity: 0;">
+										<p class="school-overlay-info">2013-2017</p>
+										<p class="school-overlay-info">GPA: 4.000/4.000</p>
 									</div>
 
-									<div class="overlay-button" onmouseover="on('overlay-hs', 'underlay-hs', 'underlay');">
+									<div class="overlay-button" id="button-hs" onmouseout="off('overlay-hs', 'underlay-hs', 'underlay', 'button-hs');" onmouseover="on('overlay-hs', 'underlay-hs', 'underlay', 'button-hs');">
 										<img src="images/general/info.png" height="16" width="16">
 									</div>
-
-									<img class="underlay" src="images/education/hs.png" width="297" height="101" style="margin: auto;">
+									<img class="underlay" src="images/education/hs.png" width="297" height="101"
+									style="margin: auto">
 									<p class="school-name underlay">Pinnacle & Westwood High School</p>
-									<p class="school-major underlay">--------------------= N/A =--------------------</p>
-
-
+									<p class="school-major underlay">-----------------==={ N/A }===-----------------</p>
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-high-school">
@@ -133,20 +129,20 @@
 						<!-- Undergrad University -->
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-undergrad" class="school-button">
-								<div class="card school-card">
-									<table class="table school-stats-table">
-										<tbody>
-											<tr>
-												<td class="school-dates">2017-2021</td>
-												<td class="school-gpa">GPA: 3.853/4.000</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/education/uw.png" width="128" height="190" style="margin: auto">
-									<p class="school-name">University of Wisconsin - Madison</p>
-									<br>
-									<p class="school-major">Computer Engineering & Computer Science</p>
-									<br>
+								<div class="card school-card" id="underlay-undergrad">
+									<div class="overlay card school-card" id="overlay-undergrad" style="opacity: 0;">
+										<p class="school-overlay-info">2017-2021</p>
+										<p class="school-overlay-info">GPA: 3.853/4.000</p>
+									</div>
+									<div class="overlay-button" id="button-undergrad" onmouseout="off('overlay-undergrad',
+													'underlay-undergrad', 'underlay', 'button-undergrad');" onmouseover="on('overlay-undergrad',
+													'underlay-undergrad', 'underlay', 'button-undergrad');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/education/uw.png" width="128" height="190"
+									style="margin: auto">
+									<p class="school-name underlay">University of Wisconsin - Madison</p>
+									<p class="school-major underlay">Computer Engineering & Computer Science</p>
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-undergrad">
@@ -184,20 +180,20 @@
 						<!-- Graduate University -->
 						<div class="col-xl-4 school-box">
 							<button type="button" data-toggle="collapse" href="#collapse-grad" class="school-button">
-								<div class="card school-card">
-									<table class="table school-stats-table">
-										<tbody>
-											<tr>
-												<td class="school-dates">2021-2023 (?)</td>
-												<td class="school-gpa">GPA: ?.???/4.000</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/education/qm.png" width="121" height="185" style="margin: auto">
-									<p class="school-name">Applying to Universities</p>
-									<br>
-									<p class="school-major">Focus in Computer Architecture</p>
-									<br>
+								<div class="card school-card" id="underlay-grad">
+									<div class="overlay card school-card" id="overlay-grad" style="opacity: 0;">
+										<p class="school-overlay-info">2021-2023 (?)</p>
+										<p class="school-overlay-info">GPA: ?.???/4.000</p>
+									</div>
+									<div class="overlay-button" id="button-grad" onmouseout="off('overlay-grad',
+													'underlay-grad', 'underlay', 'button-grad');" onmouseover="on('overlay-grad',
+													'underlay-grad', 'underlay', 'button-grad');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/education/qm.png" width="121" height="185"
+									style="margin: auto">
+									<p class="school-name underlay">Applying to Universities</p>
+									<p class="school-major underlay">Focus in Computer Architecture</p>
 								</div>
 							</button>
 							<div class="collapse school-courses" id="collapse-grad">
@@ -249,21 +245,21 @@
 						<!-- Arm -->
 						<div class="col-xl-4 experience-box">
 							<button type="button" data-toggle="collapse" href="#collapse-arm" class="experience-button">
-								<div class="card experience-card">
-									<table class="table experience-stats-table">
-										<tbody>
-											<tr>
-												<td class="experience-date">Summer 2020</td>
-												<td class="experience-weeks">14 Weeks</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/experience/arm.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p class="experience-company">Arm</p>
-									<br>
-									<p class="experience-area">Hardware Engineering Internship</p>
-									<br>
-									<p class="experience-team">Systems Interconnect Verification Team</p>
+								<div class="card experience-card" id="underlay-arm">
+									<div class="overlay card experience-card" id="overlay-arm" style="opacity: 0;">
+										<p class="experience-overlay-info">Summer 2020</p>
+										<p class="experience-overlay-info">14 Weeks</p>
+									</div>
+									<div class="overlay-button" id="button-arm" onmouseout="off('overlay-arm',
+													'underlay-arm', 'underlay', 'button-arm');" onmouseover="on('overlay-arm',
+													'underlay-arm', 'underlay', 'button-arm');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/experience/arm.png" width="100" height="100"
+									style="margin: auto; border-radius: 8px;">
+									<p class="experience-company underlay">Arm</p>
+									<p class="experience-area underlay">Hardware Engineering Internship</p>
+									<p class="experience-team underlay">Systems Interconnect Verification Team</p>
 								</div>
 							</button>
 							<div class="collapse experience-collapse-list" id="collapse-arm">
@@ -280,21 +276,22 @@
 						<!-- Qualcomm -->
 						<div class="col-xl-4 experience-box">
 							<button type="button" data-toggle="collapse" href="#collapse-qualcomm" class="experience-button">
-								<div class="card experience-card">
-									<table class="table experience-stats-table">
-										<tbody>
-											<tr>
-												<td class="experience-date">Summer 2019</td>
-												<td class="experience-weeks">14 Weeks</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/experience/qualcomm.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p class="experience-company">Qualcomm</p>
-									<br>
-									<p class="experience-area">Software Engineering Internship</p>
-									<br>
-									<p class="experience-team">Linux Kernel Memory Management Team</p>
+								<div class="card experience-card" id="underlay-qualcomm">
+									<div class="overlay card experience-card" id="overlay-qualcomm" style="opacity: 0;">
+										<p class="experience-overlay-info">Summer 2020</p>
+										<p class="experience-overlay-info">14 Weeks</p>
+									</div>
+									<div class="overlay-button" id="button-qualcomm" onmouseout="off('overlay-qualcomm',
+													'underlay-qualcomm', 'underlay', 'button-qualcomm');"
+																															 onmouseover="on('overlay-qualcomm',
+													'underlay-qualcomm', 'underlay', 'button-qualcomm');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/experience/qualcomm.png" width="100" height="100"
+									style="margin: auto; border-radius: 8px;">
+									<p class="experience-company underlay">Qualcomm</p>
+									<p class="experience-area underlay">Software Engineering Internship</p>
+									<p class="experience-team underlay">Linux Kernel Memory Management Team</p>
 								</div>
 							</button>
 							<div class="collapse experience-collapse-list" id="collapse-qualcomm">
@@ -310,21 +307,21 @@
 						<!-- Simplerisk -->
 						<div class="col-xl-4 experience-box">
 							<button type="button" data-toggle="collapse" href="#collapse-simplerisk" class="experience-button">
-								<div class="card experience-card">
-									<table class="table experience-stats-table">
-										<tbody>
-											<tr>
-												<td class="experience-date">Summer 2018</td>
-												<td class="experience-weeks">8 Weeks</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/experience/simplerisk.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p class="experience-company">SimpleRisk</p>
-									<br>
-									<p class="experience-area">Software Engineering Internship</p>
-									<br>
-									<p class="experience-team">Development Team</p>
+								<div class="card experience-card" id="underlay-simplerisk">
+									<div class="overlay card experience-card" id="overlay-simplerisk" style="opacity: 0;">
+										<p class="experience-overlay-info">Summer 2018</p>
+										<p class="experience-overlay-info">8 Weeks</p>
+									</div>
+									<div class="overlay-button" id="button-simplerisk" onmouseout="off('overlay-simplerisk',
+													'underlay-simplerisk', 'underlay', 'button-simplerisk');" onmouseover="on('overlay-simplerisk',
+													'underlay-simplerisk', 'underlay', 'button-simplerisk');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/experience/simplerisk.png" width="100" height="100"
+									style="margin: auto; border-radius: 8px;">
+									<p class="experience-company underlay">SimplerRisk</p>
+									<p class="experience-area underlay">Software Engineering Internship</p>
+									<p class="experience-team underlay">Development Team</p>
 								</div>
 							</button>
 							<div class="collapse experience-collapse-list" id="collapse-simplerisk">
@@ -339,21 +336,21 @@
 						<!-- Suvola -->
 						<div class="col-xl-4 experience-box">
 							<button type="button" data-toggle="collapse" href="#collapse-suvola" class="experience-button">
-								<div class="card experience-card">
-									<table class="table experience-stats-table">
-										<tbody>
-											<tr>
-												<td class="experience-date">Summer 2018</td>
-												<td class="experience-weeks">8 Weeks</td>
-											</tr>
-										</tbody>
-									</table>
-									<img src="images/experience/suvola.png" width="100" height="100" style="margin: auto;border-radius: 8px">
-									<p class="experience-company">Suvola</p>
-									<br>
-									<p class="experience-area">Software Engineering Internship</p>
-									<br>
-									<p class="experience-team">Development Team</p>
+								<div class="card experience-card" id="underlay-suvola">
+									<div class="overlay card experience-card" id="overlay-suvola" style="opacity: 0;">
+										<p class="experience-overlay-info">Summer 2018</p>
+										<p class="experience-overlay-info">8 Weeks</p>
+									</div>
+									<div class="overlay-button" id="button-suvola" onmouseout="off('overlay-suvola',
+													'underlay-suvola', 'underlay', 'button-suvola');" onmouseover="on('overlay-suvola',
+													'underlay-suvola', 'underlay', 'button-suvola');">
+										<img src="images/general/info.png" height="16" width="16">
+									</div>
+									<img class="underlay" src="images/experience/suvola.png" width="100" height="100"
+									style="margin: auto; border-radius: 8px;">
+									<p class="experience-company underlay">Suvola</p>
+									<p class="experience-area underlay">Software Engineering Internship</p>
+									<p class="experience-team underlay">Development Team</p>
 								</div>
 							</button>
 							<div class="collapse experience-collapse-list" id="collapse-suvola">
