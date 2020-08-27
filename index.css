@@ -165,6 +165,15 @@ p {
 	border: none;
 }
 
+.school-collapse-card {
+	background-color: #3b4252;
+	padding: 10px;
+	color: #d8dee9;
+	width: 350px;
+	outline: none;
+	border: none;
+}
+
 /* Button Effects */
 .school-button {
 	background-color: #3b4252;
@@ -232,7 +241,6 @@ p {
 /* Fix table border problems */
 .school-courses {
 	width: 350px;
-	padding-top: 10px;
 	background-color: #3b4252;
 	border-top: dashed 2px;
 	border-color: #2e3440;
@@ -245,6 +253,10 @@ p {
 	color: #d8dee9;
 	padding-top: 5px !important;
 	font-size: 16px;
+}
+
+.course-table {
+	margin-bottom: 0px;
 }
 
 
@@ -279,6 +291,15 @@ p {
 	color: #d8dee9;
 	width: 350px;
 	height: 350px;
+	outline: none;
+	border: none;
+}
+
+.experience-collapse-card {
+	background-color: #3b4252;
+	padding: 10px;
+	color: #d8dee9;
+	width: 350px;
 	outline: none;
 	border: none;
 }
@@ -350,7 +371,6 @@ p {
 /* Fix table border problems */
 .experience-collapse-list {
 	width: 350px;
-	padding-top: 10px;
 	background-color: #3b4252;
 	border-top: dashed 2px;
 	border-color: #2e3440;
@@ -359,10 +379,8 @@ p {
 }
 
 .experience-list {
-	padding-left: 35px;
-	padding-right: 15px;
-	padding-top: 10px;
-	padding-bottom: 5px;
+	padding: 10px 10px 0px 25px;
+	margin: 0px;
 	color: #d8dee9;
 }
 
