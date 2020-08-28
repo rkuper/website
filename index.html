@@ -17,20 +17,25 @@
 
 <body style="background-color:#2e3440">
 	<nav class="navbar navbar-expand-sm fixed-top" style="padding: 0px auto !important;">
-		<a class="navbar-brand no-hover pull-left main-bar-name" href="#" id="toTopName"><img src="images/general/icon.png" class="icon"></a>
+		<a class="navbar-brand no-hover pull-left main-bar-name" href="#" id="toTopName">
+			<img src="images/general/icon.png" class="icon">
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#education">Background</a>
+					<a class="nav-link" href="#">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#experience">Projects</a>
+					<a class="nav-link" href="#education">Education</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#projects">Thoughts</a>
+					<a class="nav-link" href="#experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contact">Contact</a>
@@ -46,12 +51,13 @@
 		<div class="row">
 			<div class="col">
 				<h1 class="col-title" id="about"></h2>
-				<div class="pic-of-me full-center">
-					<img src="images/about/me.png" height="300" width="200">
+				<div class="full-center">
+					<img class="pic-of-me" src="images/about/me.png" height="200" width="200">
 				</div>
 				<div style="text-align: center;">
-					<p><br><br>Hi, I'm Reese! <br><br></p>
-					<p style="margin: 0% 9%;">I'm an undergrad at the University of Wisconsin - Madison
+					<br>
+					<p class="hello">Hi, I'm Reese!</p>
+					<p class="about">I'm an undergrad at the University of Wisconsin - Madison
 					double majoring in computer engineering and computer science. I plan on pursuing a master's
 					degree in computer engineering with a focus in computer architecture.</p>
 				</div>
@@ -196,7 +202,7 @@
 									</div>
 									<img class="underlay" src="images/education/qm.png" width="121" height="185"
 									style="margin: auto">
-									<p class="school-name underlay">Applying to Universities</p>
+									<p class="school-name underlay">Applying to Graduate School</p>
 									<p class="school-major underlay">Focus in Computer Architecture</p>
 								</div>
 							</button>
@@ -254,7 +260,8 @@
 								<div class="card experience-card" id="underlay-arm">
 									<div class="overlay card experience-card" id="overlay-arm" style="opacity: 0;">
 										<p class="experience-overlay-info">Summer 2020</p>
-										<p class="experience-overlay-info">14 Weeks</p>
+										<p class="experience-overlay-info">Austin, TX</p>
+										<p class="experience-overlay-info">System Verilog, SVA, UVM, Python, ERB Scripts, SystemC </p>
 									</div>
 									<div class="overlay-button" id="button-arm" onmouseout="off('overlay-arm',
 													'underlay-arm', 'underlay', 'button-arm');" onmouseover="on('overlay-arm',
@@ -287,7 +294,8 @@
 								<div class="card experience-card" id="underlay-qualcomm">
 									<div class="overlay card experience-card" id="overlay-qualcomm" style="opacity: 0;">
 										<p class="experience-overlay-info">Summer 2020</p>
-										<p class="experience-overlay-info">14 Weeks</p>
+										<p class="experience-overlay-info">San Diego, CA</p>
+										<p class="experience-overlay-info">Linux, Kernel, C, Python</p>
 									</div>
 									<div class="overlay-button" id="button-qualcomm" onmouseout="off('overlay-qualcomm',
 													'underlay-qualcomm', 'underlay', 'button-qualcomm');"
@@ -320,7 +328,8 @@
 								<div class="card experience-card" id="underlay-simplerisk">
 									<div class="overlay card experience-card" id="overlay-simplerisk" style="opacity: 0;">
 										<p class="experience-overlay-info">Summer 2018</p>
-										<p class="experience-overlay-info">8 Weeks</p>
+										<p class="experience-overlay-info">Austin, TX</p>
+										<p class="experience-overlay-info">MySQL, PHP, HTML</p>
 									</div>
 									<div class="overlay-button" id="button-simplerisk" onmouseout="off('overlay-simplerisk',
 													'underlay-simplerisk', 'underlay', 'button-simplerisk');" onmouseover="on('overlay-simplerisk',
@@ -351,7 +360,8 @@
 								<div class="card experience-card" id="underlay-suvola">
 									<div class="overlay card experience-card" id="overlay-suvola" style="opacity: 0;">
 										<p class="experience-overlay-info">Summer 2018</p>
-										<p class="experience-overlay-info">8 Weeks</p>
+										<p class="experience-overlay-info">Austin, TX</p>
+										<p class="experience-overlay-info">Java, Patent Creation</p>
 									</div>
 									<div class="overlay-button" id="button-suvola" onmouseout="off('overlay-suvola',
 													'underlay-suvola', 'underlay', 'button-suvola');" onmouseover="on('overlay-suvola',
@@ -374,83 +384,77 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
-
-
-			
 			</div>
 		</div>
 
 
 
+		<!-- Project Section -->
+		<hr class="separator">
+		<div class="row">
+			<div class="col">
+				<h1 class="col-title" id="projects">Projects</h1>
 
 
 
+		<!-- Contact Section -->
+		<hr class="separator">
+		<div class="row">
+			<div class="col">
+				<h1 class="col-title" id="contact">Contact</h1>
+				<div class="container contact-container" style="margin-top: 40px; padding-bottom: 10%;">
+					<div class="row">
+		
+						<!-- Resume Contact -->
+						<div class="col-md-3 contact-block">
+							<a href="documents/resume.pdf" target="_blank">
+								<button class="btn contact-button">
+									<div class="full-center contact-block">
+										<img src="images/contact/resume.png" width="80" height="80">
+									</div>
+								</button>
+							</a>
+						</div>
 
-	</div>
-	
-	<!-- Footer Container -->
-	<div class="text-center" style="margin-bottom: 10px;padding-top: 30px;">
-		<div class="container" style="margin-top:100px">
-			<hr class="separator">
-			<div class="row">
-				<div class="col">
-					<h1 class="col-title" id="contact">Contact</h1>
-					<div class="container contact-container" style="margin-top: 40px; padding-bottom: 10%;">
-						<div class="row">
-			
-							<!-- Resume Contact -->
-							<div class="col-md-3 contact-block">
-								<a href="documents/resume.pdf" target="_blank">
-									<button class="btn contact-button">
-										<div class="full-center contact-block">
-											<img src="images/contact/resume.png" width="80" height="80">
-										</div>
-									</button>
-								</a>
-							</div>
+						<!-- Email Contact -->
+						<div class="col-md-3 contact-block">
+							<form action="mailto:reese.kuper@gmail.com" method="get" target="_blank">
+								<button class="btn contact-button">
+									<div class="full-center contact-block">
+										<img src="images/contact/email.png" width="80" height="80">
+									</div>
+								</button>
+							</form>
+						</div>
 
-							<!-- Email Contact -->
-							<div class="col-md-3 contact-block">
-								<form action="mailto:reese.kuper@gmail.com" method="get" target="_blank">
-									<button class="btn contact-button">
-										<div class="full-center contact-block">
-											<img src="images/contact/email.png" width="80" height="80">
-										</div>
-									</button>
-								</form>
-							</div>
+						<!-- Linkedin Contact -->
+						<div class="col-md-3 contact-block">
+							<form action="https://www.linkedin.com/in/reese-kuper/" method="get" target="_blank">
+								<button class="btn contact-button">
+									<div class="full-center contact-block">
+										<img src="images/contact/linkedin.png" width="80" height="80">
+									</div>
+								</button>
+							</form>
+						</div>
 
-							<!-- Linkedin Contact -->
-							<div class="col-md-3 contact-block">
-								<form action="https://www.linkedin.com/in/reese-kuper/" method="get" target="_blank">
-									<button class="btn contact-button">
-										<div class="full-center contact-block">
-											<img src="images/contact/linkedin.png" width="80" height="80">
-										</div>
-									</button>
-								</form>
-							</div>
-
-							<!-- Github Contact -->
-							<div class="col-md-3 contact-block">
-								<form action="https://github.com/rkuper" method="get" target="_blank">
-									<button class="btn contact-button">
-										<div class="full-center contact-block">
-											<img src="images/contact/github.png" width="80" height="80">
-										</div>
-									</button>
-								</form>
-							</div>
-
+						<!-- Github Contact -->
+						<div class="col-md-3 contact-block">
+							<form action="https://github.com/rkuper" method="get" target="_blank">
+								<button class="btn contact-button">
+									<div class="full-center contact-block">
+										<img src="images/contact/github.png" width="80" height="80">
+									</div>
+								</button>
+							</form>
 						</div>
 					</div>
-							
 				</div>
 			</div>
 		</div>
+
 	</div>
 	
 </body>

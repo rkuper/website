@@ -7,10 +7,15 @@
 .main-bar-name {
 	color: #eceff4;
 	font-size: 23px;
+	padding-top: 1px;
 }
 
 .main-bar-name:hover {
 	color: #eceff4;
+}
+
+.navbar {
+	background-color: #3b4252;
 }
 
 .nav-link {
@@ -133,7 +138,18 @@ p {
 /*												*/
 /*												*/
 .pic-of-me {
-	
+	border-radius: 16px;
+	border: solid 6px #3b4252;
+}
+
+.hello {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.about {
+	width: 70%;
+	margin: auto auto;
 }
 
 
