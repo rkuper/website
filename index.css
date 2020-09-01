@@ -16,6 +16,7 @@
 
 .navbar {
 	background-color: #3b4252;
+	margin: 5px 10px 5px 10px;
 }
 
 .nav-link {
@@ -27,6 +28,14 @@
 	text-align: center;
 	color: #d8dee9;
 	margin-bottom: 35px;
+}
+
+.navbar-toggler-icon {
+	background-color: #d8dee9;
+}
+
+.icon-bar {
+	background-color: #d8dee9;
 }
 
 /* Custom font color for all text */
@@ -49,10 +58,6 @@ p {
 /* Create better color background for button */
 .navbar-toggler {
 	background-color: #434c5e
-}
-
-.icon-bar {
-	background-color: #2e3440 !important;
 }
 
 /* Underline the navbar headers */
