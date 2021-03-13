@@ -223,12 +223,12 @@ p {
 	outline: none;
 }
 
-.degree-type {
-	text-align: left;
-	font-size: 16px;
-  color: #d8dee9;
+.program {
   margin-left: 5%;
   margin-top: 3.4%;
+	font-size: 16px;
+  color: #d8dee9;
+	text-align: left;
 }
 
 .school-name {
