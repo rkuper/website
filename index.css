@@ -228,8 +228,8 @@ p {
 	font-size: 16px;
   color: #d8dee9;
   opacity: 0.6;
-  left: 5%;
-  top: 3.4%;
+  margin-left: 5%;
+  margin-top: 3.4%;
 }
 
 .school-name {
