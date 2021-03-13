@@ -227,9 +227,8 @@ p {
 	text-align: left;
 	font-size: 16px;
   color: #d8dee9;
-  opacity: 0.6;
-  margin-left: 5% !important;
-  margin-top: 3.4% !important;
+  margin-left: 5%;
+  margin-top: 3.4%;
 }
 
 .school-name {
