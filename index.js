@@ -3,7 +3,7 @@ function on(overlay_id, underlay_id, underlay_classes, button) {
 	document.getElementById(button).style.opacity = "1";
 	var x = document.getElementById(underlay_id).getElementsByClassName(underlay_classes);
   for (var i = 0; i < x.length; i++) {
-    x[i].style.filter = "blur(5px)";
+    x[i].style.filter = "blur(7px)";
     x[i].style.opacity = "0.35";
 	}
 }
