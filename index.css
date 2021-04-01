@@ -1,103 +1,103 @@
-/*																	*/
-/*																	*/
-/*			General/Navbar Section			*/
-/*																	*/
-/*																	*/
+/*                                  */
+/*                                  */
+/*      General/Navbar Section      */
+/*                                  */
+/*                                  */
 
 .main-bar-name {
-	color: #eceff4;
-	font-size: 23px;
-	padding-top: 1px;
+  color: #eceff4;
+  font-size: 23px;
+  padding-top: 1px;
 }
 
 .main-bar-name:hover {
-	color: #eceff4;
+  color: #eceff4;
 }
 
 .navbar {
-	background-color: #3b4252;
+  background-color: #3b4252;
 }
 
 .nav-link {
-	color: #d8dee9;
-	font-size: 16px
+  color: #d8dee9;
+  font-size: 16px
 }
 
 .col-title {
-	text-align: center;
-	color: #d8dee9;
-	margin-bottom: 35px;
+  text-align: center;
+  color: #d8dee9;
+  margin-bottom: 35px;
 }
 
 .navbar-toggler-icon {
-	background-color: #d8dee9;
+  background-color: #d8dee9;
 }
 
 .icon-bar {
-	background-color: #d8dee9;
+  background-color: #d8dee9;
 }
 
 /* Custom font color for all text */
 p {
-	color: #d8dee9;
-	font-size: 18px;
-	/* font-family: 'Rubik', monospace; */
+  color: #d8dee9;
+  font-size: 18px;
+  /* font-family: 'Rubik', monospace; */
 }
 
 /* Separating line for each about section */
 .separator {
-	width: 95%;
-	margin: auto;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	border: 1px solid #434c5e;
-	color: #434c5e;
+  width: 95%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid #434c5e;
+  color: #434c5e;
 }
 
 /* Create better color background for button */
 .navbar-toggler {
-	background-color: #434c5e
+  background-color: #434c5e
 }
 
 /* Underline the navbar headers */
 .nav-item > a {
-	position: relative;
-	color: #eceff4;
-	text-decoration: none;
-	padding-top: 10px;
+  position: relative;
+  color: #eceff4;
+  text-decoration: none;
+  padding-top: 10px;
 }
 
 .nav-item > a:hover {
-	color: #eceff4;
+  color: #eceff4;
 }
 
 .nav-item > a::before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #eceff4;
-	visibility: hidden;
-	transform: scaleX(0);
-	transition: all 0.3s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #eceff4;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-item > a:hover::before {
-	visibility: visible;
-	transform: scaleX(0.9);
-	color: #eceff4;
+  visibility: visible;
+  transform: scaleX(0.9);
+  color: #eceff4;
 }
 
 /* Center images */
 .full-center {
-	display: table-cell;
-	margin: auto;
-	height: 200px;
-	text-align: center;
-	width: 10000px;
-	vertical-align: middle;
+  display: table-cell;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+  width: 10000px;
+  vertical-align: middle;
 }
 
 /* Allow overlay for cards */
@@ -114,87 +114,87 @@ p {
   font-size: 16px;
   margin: auto;
   text-align: center;
-	z-index: 2;
+  z-index: 2;
 }
 
 .underlay {
   transition: .35s ease;
-	filter: blur(0px);
-	z-index: 1;
+  filter: blur(0px);
+  z-index: 1;
 }
 
 .overlay-button {
-	position: absolute;
-	top: 3.4%;
-	right: 5%;
-	border-radius: 16px;
-	height: 16px;
-	width: 16px;
-	opacity: 0.6;
-	z-index: 2;
+  position: absolute;
+  top: 3.4%;
+  right: 5%;
+  border-radius: 16px;
+  height: 16px;
+  width: 16px;
+  opacity: 0.6;
+  z-index: 2;
 }
 
 .overlay-button:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 
 
-/*												*/
-/*												*/
-/*			About Section			*/
-/*												*/
-/*												*/
+/*                         */
+/*                         */
+/*      About Section      */
+/*                         */
+/*                         */
 .pic-of-me {
-	border-radius: 16px;
-	border: solid 6px #3b4252;
+  border-radius: 16px;
+  border: solid 6px #3b4252;
 }
 
 .hello {
-	font-size: 40px;
-	font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .about {
-	width: 70%;
-	margin: auto auto;
+  width: 70%;
+  margin: auto auto;
 }
 
 
 
-/*														*/
-/*														*/
-/*			Education Section			*/
-/*														*/
-/*														*/
+/*                             */
+/*                             */
+/*      Education Section      */
+/*                             */
+/*                             */
 
 /* School wrappers */
 .school-box {
-	width: 350px;
-	padding-right: 0px;
-	padding-left: 0px;
-	display: table-cell;
-	margin: 0px auto 20px auto;
-	text-align: center;
-	vertical-align: middle;
+  width: 350px;
+  padding-right: 0px;
+  padding-left: 0px;
+  display: table-cell;
+  margin: 0px auto 20px auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .school-card {
-	background-color: #3b4252;
-	color: #d8dee9;
-	width: 350px;
-	height: 350px;
-	outline: none;
-	border: none;
+  background-color: #3b4252;
+  color: #d8dee9;
+  width: 350px;
+  height: 350px;
+  outline: none;
+  border: none;
 }
 
 .school-collapse-card {
-	background-color: #3b4252;
-	padding: 10px;
-	color: #d8dee9;
-	width: 350px;
-	outline: none;
-	border: none;
+  background-color: #3b4252;
+  padding: 10px;
+  color: #d8dee9;
+  width: 350px;
+  outline: none;
+  border: none;
 }
 
 .degree-type {
@@ -207,98 +207,98 @@ p {
 
 /* Button Effects */
 .school-button {
-	background-color: #3b4252;
-	border: none;
-	padding-left: 0px;
-	padding-right: 0px;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  outline: none;
 }
 
 .school-button:hover {
-	background-color: #3b4252;
-	border: none;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  outline: none;
 }
 
 .school-button:active {
-	background-color: #3b4252;
-	border: none;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  outline: none;
 }
 
 .school-button:focus {
-	border: none;
-	outline: none;
+  border: none;
+  outline: none;
 }
 
 .school-name {
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .school-major {
-	text-align: center;
-	font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .school-overlay-info {
-	color: #d8dee9;
-	margin: auto;
-	text-align: center;
-	font-size: 26px;
+  color: #d8dee9;
+  margin: auto;
+  text-align: center;
+  font-size: 26px;
 }
 
 .school-stats-table {
-	border: none !important;
-	color: #d8dee9;
-	margin: 0px auto;
+  border: none !important;
+  color: #d8dee9;
+  margin: 0px auto;
 }
 
 .school-gpa {
-	border: none !important;
-	text-align: right;
-	padding-right: 20px !important;
-	font-size: 16px;
+  border: none !important;
+  text-align: right;
+  padding-right: 20px !important;
+  font-size: 16px;
 }
 
 .school-dates {
-	border: none !important;
-	text-align: left;
-	padding-left: 20px !important;
-	font-size: 16px;
+  border: none !important;
+  text-align: left;
+  padding-left: 20px !important;
+  font-size: 16px;
 }
 
 /* Fix table border problems */
 .school-courses {
-	width: 350px;
-	background-color: #3b4252;
-	border-top: dashed 2px;
-	border-color: #2e3440;
-	text-align: left;
-	margin: 0px auto;
+  width: 350px;
+  background-color: #3b4252;
+  border-top: dashed 2px;
+  border-color: #2e3440;
+  text-align: left;
+  margin: 0px auto;
 }
 
 .course-item {
-	border: none !important;
-	color: #d8dee9;
-	padding-top: 5px !important;
-	font-size: 16px;
+  border: none !important;
+  color: #d8dee9;
+  padding-top: 5px !important;
+  font-size: 16px;
 }
 
 .course-table {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .course-list {
-	padding: 10px 10px 0px 25px;
-	margin: 0px;
-	color: #d8dee9;
+  padding: 10px 10px 0px 25px;
+  margin: 0px;
+  color: #d8dee9;
 }
 
 .course-bullet {
-	padding-bottom: 15px;
-	font-size: 16px;
+  padding-bottom: 15px;
+  font-size: 16px;
 }
 
 li div {
@@ -312,227 +312,233 @@ li div span {
 
 
 
-/*															*/
-/*															*/
-/*		  Experience Section			*/
-/*														  */
-/*															*/
+/*                              */
+/*                              */
+/*      Experience Section      */
+/*                              */
+/*                              */
 
 /* School wrappers */
 .experience-box {
-	width: 350px;
-	padding-right: 0px;
-	padding-left: 0px;
+  width: 350px;
+  padding-right: 0px;
+  padding-left: 0px;
 
-	display: table-cell;
-	margin: 0px auto 20px auto;
-	text-align: center;
-	vertical-align: middle;
+  display: table-cell;
+  margin: 0px auto 20px auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .experience-overlay-info {
-	color: #d8dee9;
-	margin: auto;
-	text-align: center;
-	font-size: 26px;
+  color: #d8dee9;
+  margin: auto;
+  text-align: center;
+  font-size: 26px;
 }
 
 .experience-card {
-	background-color: #3b4252;
-	color: #d8dee9;
-	width: 350px;
-	height: 350px;
-	outline: none;
-	border: none;
+  background-color: #3b4252;
+  color: #d8dee9;
+  width: 350px;
+  height: 350px;
+  outline: none;
+  border: none;
 }
 
 .experience-collapse-card {
-	background-color: #3b4252;
-	padding: 10px;
-	color: #d8dee9;
-	width: 350px;
-	outline: none;
-	border: none;
+  background-color: #3b4252;
+  padding: 10px;
+  color: #d8dee9;
+  width: 350px;
+  outline: none;
+  border: none;
 }
 
 /* Button Effects */
 .experience-button {
-	background-color: #3b4252;
-	border: none;
-	padding-left: 0px;
-	padding-right: 0px;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  outline: none;
 }
 
 .experience-button:hover {
-	background-color: #3b4252;
-	border: none;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  outline: none;
 }
 
 .experience-button:active {
-	background-color: #3b4252;
-	border: none;
-	outline: none;
+  background-color: #3b4252;
+  border: none;
+  outline: none;
 }
 
 .experience-button:focus {
-	border: none;
-	outline: none;
+  border: none;
+  outline: none;
 }
 
 /* Card info */
 .experience-company {
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .experience-area {
-	text-align: center;
-	font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .experience-team {
-	text-align: center;
-	font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .experience-stats-table {
-	border: none !important;
-	color: #d8dee9;
-	margin: 0px auto;
+  border: none !important;
+  color: #d8dee9;
+  margin: 0px auto;
 }
 
 .experience-weeks {
-	border: none !important;
-	text-align: right;
-	padding-right: 20px !important;
-	font-size: 16px;
+  border: none !important;
+  text-align: right;
+  padding-right: 20px !important;
+  font-size: 16px;
 }
 
 .experience-date {
-	border: none !important;
-	text-align: left;
-	padding-left: 20px !important;
-	font-size: 16px;
+  border: none !important;
+  text-align: left;
+  padding-left: 20px !important;
+  font-size: 16px;
 }
 
 
 /* Fix table border problems */
 .experience-collapse-list {
-	width: 350px;
-	background-color: #3b4252;
-	border-top: dashed 2px;
-	border-color: #2e3440;
-	text-align: left;
-	margin: 0px auto;
+  width: 350px;
+  background-color: #3b4252;
+  border-top: dashed 2px;
+  border-color: #2e3440;
+  text-align: left;
+  margin: 0px auto;
 }
 
 .experience-list {
-	padding: 10px 10px 0px 25px;
-	margin: 0px;
-	color: #d8dee9;
+  padding: 10px 10px 0px 25px;
+  margin: 0px;
+  color: #d8dee9;
 }
 
 .experience-bullet {
-	padding-bottom: 15px;
-	font-size: 16px;
+  padding-bottom: 15px;
+  font-size: 16px;
 }
 
 
 
-/*					    									*/
-/*			    											*/
-/*		  Publications Section			*/
-/*							    							*/
-/*									    					*/
+/*                                 */
+/*                                 */
+/*      Publications Section       */
+/*                                 */
+/*                                 */
 
 .year {
 
 }
 
 .publication-title {
-
+  font-size: 20px;
+  color: #d8dee9;
+  line-height: 16px;
 }
 
 .publication-people {
-
+  font-size: 15px;
+  color: #9fa2a8;
+  line-height: 20px;
 }
 
 .publication-conference-date {
-
+  font-size: 15px;
+  color: #9fa2a8;
+  line-height: 14px;
 }
 
 
 
-/*														*/
-/*														*/
-/*			Projects Section			*/
-/*														*/
-/*														*/
+/*                             */
+/*                             */
+/*      Projects Section       */
+/*                             */
+/*                             */
 
 .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3b4252' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-		}
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3b4252' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
 
 .carousel-control-next-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3b4252' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%3b4252' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-indicators > li {
-	background-color: #d8dee9;
+  background-color: #d8dee9;
 }
 
 .project-title {
-	text-align: center;
-	color: #d8dee9;
+  text-align: center;
+  color: #d8dee9;
 }
 
 .project-description {
-	text-align: center;
-	color: #d8dee9;
+  text-align: center;
+  color: #d8dee9;
 }
 
 .multi-item {
-	display: inline-block !important;
+  display: inline-block !important;
 }
 
 .project-download {
-	color: #81a1c1;
+  color: #81a1c1;
 }
 
 .project-download:hover {
-	color: #88c0d0;
-	text-decoration: none;
+  color: #88c0d0;
+  text-decoration: none;
 }
 
 
-/*													*/
-/*													*/
-/*			Contact Section			*/
-/*													*/
-/*													*/
+/*                           */
+/*                           */
+/*      Contact Section      */
+/*                           */
+/*                           */
 
 .contact-block {
-	display: table-cell;
-	margin: 0px auto 25px auto;
-	text-align: center;
-	vertical-align: middle;
+  display: table-cell;
+  margin: 0px auto 25px auto;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .contact-button {
-	background-color: #3b4252;
-	border: none;
+  background-color: #3b4252;
+  border: none;
 }
 
 
 
-/*									*/
-/*									*/
-/*			DEBUG				*/
-/*									*/
-/*									*/
+/*                  */
+/*                  */
+/*      DEBUG       */
+/*                  */
+/*                  */
 .border-debug {
-	border: solid white 1px;
+  border: solid white 1px;
 }
